@@ -85,6 +85,11 @@ canvas {
     margin: auto;
 }
 
+a:link { color: yellow; }
+a:visited { color: orange; }
+a:active { color: red; }
+a:hover { text-decoration: underline; }
+
 h1 {
     text-align: center;
 }
