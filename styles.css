@@ -1,6 +1,7 @@
 
 html {
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     min-height: 100%;
 }
 
@@ -10,8 +11,6 @@ html {
 
 body {
     background-image: linear-gradient(to bottom right, black, maroon);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
     word-wrap: break-word;
     color: #fff;
 }
@@ -59,14 +58,14 @@ nav {
 
 .nav_link {
     white-space: nowrap;
-    color: inherit;
     text-decoration: none;
 }
 
 main {
     background-color: #500000;
     margin: 50px auto 100px;
-    max-width: 60%;
+    max-width: 80%;
+    min-width: 600px;
     display: block;
     overflow: auto;
     padding: 50px 5% 100px;
@@ -74,7 +73,7 @@ main {
 }
 
 main h1 {
-    font-size: 3em;
+    font-size: 45px;
     text-decoration: underline;
 }
 
